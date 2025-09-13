@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Principal - LEVEL-UP GAMER</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">LEVEL-UP GAMER</div>
+        <ul class="navbar-menu">
+            <li><a href="menu.html">Menú Principal</a></li>
+            <li><a href="usuario.html">Perfil</a></li>
+            <li><a href="#" id="carrito-link">Carrito</a></li>
+            <li><a href="index.html">Cerrar Sesión</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="titulo-menu">Productos Destacados</h2>
+        <div class="productos-grid">
+            <div class="producto-card" data-categoria="Juego de mesa">
+                <img src="img/Catan.jpg" alt="Producto 1">
+                <h3>Catán</h3>
+                <p>expandirse en la isla de Catan. Ideal para 3-4 jugadores y perfecto para noches de juego en
+                familia o con amigos</p>
+                <div class="precio">$29.990</div>
+                <button class="btn-carrito" data-id="1" data-precio="29990">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Juego de mesa">
+                <img src="img/Carcassonne.jpg" alt="Producto 2">
+                <h3>Carcassonne </h3>
+                <p>Un juego de colocación de fichas donde los jugadores construyen el paisaje
+                    alrededor de la fortaleza medieval de Carcassonne. Ideal para 2-5 jugadores y fácil de
+                    aprender.
+                </p>
+                <div class="precio">$24.990</div>
+                <button class="btn-carrito" data-id="2" data-precio="24990">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Accesorios gamers">
+                <img src="img/xbox2.jpg" alt="Producto 3">
+                <h3>Control Inalámbrico Xbox Series X </h3>
+                <p>Ofrece una experiencia de juego cómoda con
+                 botones mapeables y una respuesta táctil mejorada. Compatible con consolas Xbox y PC</p>
+                <div class="precio">$59.990</div>
+                <button class="btn-carrito" data-id="3" data-precio="59990">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Sillas">
+                <img src="img/Silla.avif" alt="Producto 4">
+                <h3>Silla Samer</h3>
+                <p>Diseñada para el máximo confort, esta silla ofrece un soporte
+                 ergonómico y personalización ajustable para sesiones de juego prolongadas</p>
+                <div class="precio">$75.000</div>
+                <button class="btn-carrito" data-id="4" data-precio="75000">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Accesorios gamers">
+                <img src="img/monitor.webp" alt="Producto 5">
+                <h3>Monitor 144hz</h3>
+                <p>Un monitor para poder jugar con la mejor fluidez</p>
+                <div class="precio">$129.990</div>
+                <button class="btn-carrito" data-id="5" data-precio="129990">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Accesorios gamers">
+                <img src="img/mousepad.webp" alt="Producto 6">
+                <h3>Mousepad RGB</h3>
+                <p>Mousepads con luces led incluidas</p>
+                <div class="precio">$9.000</div>
+                <button class="btn-carrito" data-id="6" data-precio="9000">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Juegos">
+                <img src="img/gta.jpg" alt="Producto 7">
+                <h3>GTAV PS5</h3>
+                <p> es un videojuego de acción-aventura de mundo abierto desarrollado por Rockstar Games</p>
+                <div class="precio">$25.000</div>
+                <button class="btn-carrito" data-id="7" data-precio="25000">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Accesorios gamers">
+                <img src="img/hyper.jpg" alt="Producto 8">
+                <h3>Audifonos inalámbricos</h3>
+                <p>Audifonos para que puedas escuchar en la mejor calidad sin necesidad de un cable</p>
+                <div class="precio">$30.000</div>
+                <button class="btn-carrito" data-id="8" data-precio="30000">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Accesorios gamers">
+                <img src="img/cable.jpg" alt="Producto 9">
+                <h3>Audífonos con Cable Gamer</h3>
+                <p>Los clásicos audífonos gamer para escuchar con la mejor calidad de sonido</p>
+                <div class="precio">$15.000</div>
+                <button class="btn-carrito" data-id="9" data-precio="15000">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Juegos">
+                <img src="img/Mario.webp" alt="Producto 10">
+                <h3>Mario kart world</h3>
+                <p>Divertido juego de carreras para poder jugar con amigos</p>
+                <div class="precio">$80.000</div>
+                <button class="btn-carrito" data-id="10" data-precio="80000">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Juegos">
+                <img src="img/Silksong_cover.webp" alt="Producto 11">
+                <h3>Hollow Knigth Silksong</h3>
+                <p>Hollow Knight: Silksong es un videojuego metroidvania desarrollado por el estudio independiente australiano Team Cherry.</p>
+                <div class="precio">$10.500</div>
+                <button class="btn-carrito" data-id="11" data-precio="10500">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Accesorios gamers">
+                <img src="img/ajjaz.webp" alt="Producto 12">
+                <h3>Teclado Mecanico</h3>
+                <p>Teclado mecanico de buena calidad.</p>
+                <div class="precio">$48.000</div>
+                <button class="btn-carrito" data-id="12" data-precio="48000">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Accesorios gamers">
+                <img src="img/curvo.jpg" alt="Producto 13">
+                <h3>Monitor Curvo 144hz</h3>
+                <p>Los mejores monitores para vivir la mejor experiencia Gamer</p>
+                <div class="precio">$399.000</div>
+                <button class="btn-carrito" data-id="12" data-precio="399000">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Juegos">
+                <img src="img/crashtri.jpg" alt="Producto 14">
+                <h3>Crash Bandicoot Trilogy</h3>
+                <p>La clásica trilogía de Crash Bandicoot remasterizada.</p>
+                <div class="precio">$34.000</div>
+                <button class="btn-carrito" data-id="12" data-precio="34000">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Accesorios gamers">
+                <img src="img/Mouse.webp" alt="Producto 15">
+                <h3>Mouse Gamer</h3>
+                <p>La mejor calidad en mouse gamers.</p>
+                <div class="precio">$36.000</div>
+                <button class="btn-carrito" data-id="12" data-precio="36000">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Tecnologia">
+                <img src="img/ps5digital.png" alt="Producto 16">
+                <h3>PlayStation 5 </h3>
+                <p>La consola de última generación de Sony, que ofrece gráficos
+                   impresionantes y tiempos de carga ultrarrápidos para una experiencia de juego inmersiva.</p>
+                <div class="precio">$549.990</div>
+                <button class="btn-carrito" data-id="12" data-precio="549990">Añadir al carro</button>
+            </div>
+            <div class="producto-card" data-categoria="Tecnologia">
+                <img src="img/pc.jpg" alt="Producto 17">
+                <h3>PC Gamer ASUS ROG Strix </h3>
+                <p>Un potente equipo diseñado para los gamers más exigentes,
+                   equipado con los últimos componentes para ofrecer un rendimiento excepcional en
+                   cualquier juego.</p>
+                <div class="precio">$1.290.000</div>
+                <button class="btn-carrito" data-id="12" data-precio="1290000">Añadir al carro</button>
+            </div>
+            <div class="producto-card">
+                <img src="img/carrot.png" alt="Producto 18">
+                <h3>1500 Carrot- Umamusume </h3>
+                <p>Coins necesarias para poder abrir gachapon en Umamusume</p>
+                <div class="precio">$22.000</div>
+                <button class="btn-carrito" data-id="12" data-precio="22000">Añadir al carro</button>
+            </div>
+        </div>
+    </main>
+    <!-- Carrito desplegable -->
+    <div id="carrito-sidebar" class="carrito-sidebar">
+        <div class="carrito-header">
+            <h3>Carrito de Compras</h3>
+            <button id="cerrar-carrito" class="cerrar-carrito">&times;</button>
+        </div>
+        <div id="carrito-items" class="carrito-items">
+            <!-- Aquí se mostrarán los productos del carrito -->
+        </div>
+        <div class="carrito-footer">
+            <strong>Total: $<span id="carrito-total">0</span></strong>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+    <script src="carrito.js"></script>
+    <script src="filtro-categorias.js"></script>
+
+</body>
+
+</html>
